@@ -34,8 +34,8 @@ def skip_mission(token):
 				pass
 			else:
 				logs = backend_data['Logs']
-				cash = logs[len(logs)-1]['Message'].split()[5]
-				print(f'[{token}] Added {cash} balance to your account')
+				msg = logs[len(logs)-1]['Message']
+				print(f'[{token}] {msg}')
 	
 def pass_mission():
 	carrer = create_mission()
