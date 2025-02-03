@@ -49,6 +49,6 @@ while 1:
 	if counter == 3:
 		counter = 0
 		print('Sleeping 3.5 second prevent anti spam')
-		time.sleep(3.5)
+		time.sleep(0.5)
 	else:
 		counter += 1
